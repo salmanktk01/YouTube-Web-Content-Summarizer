@@ -20,12 +20,12 @@ with st.sidebar:
 generic_url=st.text_input("URL",label_visibility="collapsed")
 
 ## Gemma Model USsing Groq API
-# llm =ChatGroq(model="Llama3-8b-8192", groq_api_key="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")
+# llm =ChatGroq(model="Llama3-8b-8192", groq_api_key="gsk_U8W5VhMUx4v92NzX9YiWGdyb3FY0jnB2KMwh34F2P84KzU")
 repo_id="mistralai/Mistral-Nemo-Instruct-2407" #the model is text generation model 
 llm=HuggingFaceEndpoint(repo_id=repo_id,
     max_new_tokens=150,  # directly pass as a parameter
     temperature=0.1,     # directly pass as a parameter
-    huggingfacehub_api_token="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")
+    huggingfacehub_api_token="hf_yaCsdNdiVvDvnIxamliomAYSBdO")
 
 prompt_template="""
 Provide a summary of the following content in 400 words:
