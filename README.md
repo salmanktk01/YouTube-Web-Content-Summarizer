@@ -9,13 +9,13 @@ Streamlit UI: Simple and user-friendly interface.
 Deployed on Hugging Face Spaces: Available online for easy access.
 
 ## Requirements
-Ensure you have the following installed:
-Python 3.x
-Streamlit
-LangChain
-Hugging Face API
-YoutubeLoader
-UnstructuredURLLoader
+- Ensure you have the following installed:
+- Python 3.10
+- Streamlit
+- LangChain
+- Hugging Face API
+- YoutubeLoader
+- UnstructuredURLLoader
 
 ## Usage
 Enter your Hugging Face API key in the sidebar.
